@@ -1,0 +1,187 @@
+@media screen and (min-width:1024) and (max-width:2560px) 
+{
+
+* {
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(189, 189, 189);
+}
+
+.divartop {
+    height: 100px;
+    background-color: rgb(51, 49, 49);
+}
+}
+
+@media screen and (min-width:1024px) and (max-width:1440px) 
+{
+body {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(189, 189, 189);
+}
+
+.divartop {
+    height: 100px;
+    background-color: rgb(51, 49, 49);
+}
+
+.search-box {
+    width: 30%;
+    height: 30%;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: rgb(95, 95, 95);
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    direction: rtl;
+    margin: auto;
+}
+
+.search-button {
+    width: 30px;   
+    height: 30px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: rgb(226, 226, 226);
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+}
+
+.search-input {
+    font-family: dana;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    width: 80%;
+    background-color: rgb(95, 95, 95);
+    border: none;
+    outline: none;
+}
+}
+
+@media screen and (min-width:425px) and (max-width:768px) 
+{
+body {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(189, 189, 189);
+}
+
+.divartop {
+    height: 100px;
+    background-color: rgb(51, 49, 49);
+}
+
+.search-box {
+    width: 30%;
+    height: 30%;
+    padding: 4px;
+    border-radius: 5px;
+    background-color: rgb(95, 95, 95);
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    direction: rtl;
+    margin: auto;
+}
+
+.search-button {
+    width: 30px;   
+    height: 30px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: rgb(226, 226, 226);
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+}
+
+.search-input {
+    font-family: dana;
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    width: 80%;
+    background-color: rgb(95, 95, 95);
+    border: none;
+    outline: none;
+}
+}
+
+@media screen and (min-width:0px) and (max-width:375px) 
+{
+
+@font-face {
+    font-family: vazir;
+    src: url(/vazir-font-shahregraphic.ir/vazir-font-v16.1.0/Vazir-Bold.ttf) format(ttf);
+}
+
+body {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(189, 189, 189);
+}
+
+.divartop {
+    height: 50px;
+    background-color: rgb(51, 49, 49);
+}
+
+.search-box {
+    width: 30%;
+    height: 30%;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: rgb(95, 95, 95);
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    direction: rtl;
+    margin-top: 5px;
+    margin-right: 55%;
+}
+
+.search-button {
+    width: 25px;   
+    height: 25px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: rgb(226, 226, 226);
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    margin-left: -7px;
+}
+
+.search-input {
+    font-family: vazir;
+    font-weight: 700;
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    width: 80%;
+    background-color: rgb(95, 95, 95);
+    border: none;
+    outline: none;
+}
+}
